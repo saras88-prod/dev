@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # replace with your DockerHub username
-DOCKER_USER="${DOCKER_USER:-<DOCKER_USERNAME>}"
+DOCKER_USER="${DOCKER_USER:-saraswathi6}"
 IMAGE_NAME="${DOCKER_USER}/guvi-react-dev"
 
 echo "Building image ${IMAGE_NAME}:latest ..."
