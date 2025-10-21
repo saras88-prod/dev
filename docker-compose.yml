@@ -1,8 +1,6 @@
 version: '3.8'
 services:
   web:
-    image: ${IMAGE_NAME:-<DOCKER_USERNAME>/<IMAGE_NAME>:latest}
+    image: "${IMAGE_NAME}"
     ports:
       - "80:80"
-    restart: unless-stopped
-
