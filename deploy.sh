@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-DOCKER_USER="${DOCKER_USER:-<DOCKER_USERNAME>}"
+DOCKER_USER="${DOCKER_USER:-saraswathi6}"
 IMAGE_NAME="${DOCKER_USER}/guvi-react-dev"
 TAG="${BUILD_TAG:-latest}"
 
