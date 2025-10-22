@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y build-essential python3 --no-install-re
 
 COPY package*.json ./
 # use npm ci for deterministic installs; if peer deps issues, use npm install
-RUN npm ci
+RUN npm install
 
 COPY . .
 RUN npm run build
