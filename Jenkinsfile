@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git credentialsId: 'github-creds', url: 'https://github.com/saras88-prod/dev.git', branch: 'dev'
+                git credentialsId: 'github-creds', url: 'https://github.com/saras88-prod/dev.git', branch: 'prod'
             }
         }
 
