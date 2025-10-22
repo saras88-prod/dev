@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 FROM node:18-alpine
 WORKDIR /app
 COPY package*.json ./
@@ -33,4 +32,3 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
->>>>>>> 44a1846 (Pushing the project files to github)
